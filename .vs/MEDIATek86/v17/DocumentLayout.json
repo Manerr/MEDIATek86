@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|c:\\users\\pault\\desktop\\pro code here\\vs\\repos\\mediatek86 - v1\\dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -12,10 +16,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -92,9 +92,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|c:\\users\\pault\\desktop\\pro code here\\vs\\repos\\mediatek86 - v1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -104,11 +101,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -117,7 +114,8 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAqwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T18:44:26.281Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -139,18 +137,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AccesDonnees.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeDocumentMoniker": "Dal\\AccesDonnees.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeToolTip": "Dal\\AccesDonnees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:02:20.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MEDIATEK86",
               "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\MEDIATEK86.csproj",
               "RelativeDocumentMoniker": "MEDIATEK86.csproj",
               "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\MEDIATEK86.csproj",
               "RelativeToolTip": "MEDIATEK86.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-05T06:15:50.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T06:15:50.465Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BddManager.cs",
               "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\BDDMANAGER\\BddManager.cs",
               "RelativeDocumentMoniker": "BDDMANAGER\\BddManager.cs",
@@ -205,19 +215,6 @@
               "RelativeToolTip": "Vues\\Connexion.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-04T14:53:47.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccesDonnees.cs",
-              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
-              "RelativeDocumentMoniker": "Dal\\AccesDonnees.cs",
-              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
-              "RelativeToolTip": "Dal\\AccesDonnees.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T07:02:20.798Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
