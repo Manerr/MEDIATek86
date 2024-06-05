@@ -1,0 +1,391 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MEDIATEK86||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\listeabsences.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\listeabsences.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\controleur\\controleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:controleur\\controleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\controleur\\controleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:controleur\\controleur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\connexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:vues\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\resources\\iconapp.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:resources\\iconapp.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:vues\\listeabsences.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|solutionrelative:modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:modele\\personnel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:modele\\absence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:dal\\accesdonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIA86.csproj|solutionrelative:bddmanager\\bddmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D57ED1D-8BE8-4975-8084-B584A7377D45}|MEDIATEK86.csproj|c:\\users\\pault\\desktop\\pro code here\\vs\\repos\\mediatek86 - v1\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:44:26.281Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\App.cs",
+              "RelativeDocumentMoniker": "Vues\\App.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\App.cs",
+              "RelativeToolTip": "Vues\\App.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T10:22:02.937Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MEDIATEK86",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\MEDIATEK86.csproj",
+              "RelativeDocumentMoniker": "MEDIATEK86.csproj",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\MEDIATEK86.csproj",
+              "RelativeToolTip": "MEDIATEK86.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-05T06:15:50.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BddManager.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\BDDMANAGER\\BddManager.cs",
+              "RelativeDocumentMoniker": "BDDMANAGER\\BddManager.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\BDDMANAGER\\BddManager.cs",
+              "RelativeToolTip": "BDDMANAGER\\BddManager.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAGIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:02:03.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListeAbsences.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.Designer.cs",
+              "RelativeDocumentMoniker": "Vues\\ListeAbsences.Designer.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.Designer.cs",
+              "RelativeToolTip": "Vues\\ListeAbsences.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T13:09:46.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Personnel.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Personnel.cs",
+              "RelativeDocumentMoniker": "Modele\\Personnel.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Personnel.cs",
+              "RelativeToolTip": "Modele\\Personnel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAIBJwAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T12:30:25.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListeAbsences.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs",
+              "RelativeDocumentMoniker": "Vues\\ListeAbsences.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs [Design]",
+              "RelativeToolTip": "Vues\\ListeAbsences.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T05:20:51.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Connexion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\Connexion.cs",
+              "RelativeDocumentMoniker": "Vues\\Connexion.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\Connexion.cs [Design]",
+              "RelativeToolTip": "Vues\\Connexion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:53:47.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccesDonnees.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeDocumentMoniker": "Dal\\AccesDonnees.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeToolTip": "Dal\\AccesDonnees.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T07:02:20.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\App.cs",
+              "RelativeDocumentMoniker": "Vues\\App.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\App.cs [Design]",
+              "RelativeToolTip": "Vues\\App.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T05:21:26.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ListeAbsences.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs",
+              "RelativeDocumentMoniker": "Vues\\ListeAbsences.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs",
+              "RelativeToolTip": "Vues\\ListeAbsences.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T05:20:51.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Controleur.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Controleur\\Controleur.cs",
+              "RelativeDocumentMoniker": "Controleur\\Controleur.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Controleur\\Controleur.cs",
+              "RelativeToolTip": "Controleur\\Controleur.cs",
+              "ViewState": "AQIAAIoCAAAAAAAAAADwv5cCAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T05:16:17.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Absence.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Absence.cs",
+              "RelativeDocumentMoniker": "Modele\\Absence.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Absence.cs",
+              "RelativeToolTip": "Modele\\Absence.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:34:45.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Connexion.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\Connexion.cs",
+              "RelativeDocumentMoniker": "Vues\\Connexion.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\Connexion.cs",
+              "RelativeToolTip": "Vues\\Connexion.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:34:45.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\App.cs",
+              "RelativeDocumentMoniker": "Vues\\App.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIA86\\Vues\\App.cs [Design]",
+              "RelativeToolTip": "..\\MEDIA86\\Vues\\App.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:41:03.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ListeAbsences.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs",
+              "RelativeDocumentMoniker": "Vues\\ListeAbsences.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\ListeAbsences.cs",
+              "RelativeToolTip": "Vues\\ListeAbsences.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:53:12.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Controleur.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Controleur\\Controleur.cs",
+              "RelativeDocumentMoniker": "Controleur\\Controleur.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Controleur\\Controleur.cs",
+              "RelativeToolTip": "Controleur\\Controleur.cs",
+              "ViewState": "AQIAAM4BAAAAAAAAAAAewMECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:24:12.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Personnel.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Personnel.cs",
+              "RelativeDocumentMoniker": "Modele\\Personnel.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Personnel.cs",
+              "RelativeToolTip": "Modele\\Personnel.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:33:15.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Connexion.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Vues\\Connexion.cs",
+              "RelativeDocumentMoniker": "Vues\\Connexion.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIA86 - Copie\\Vues\\Connexion.cs [Design]",
+              "RelativeToolTip": "..\\MEDIA86 - Copie\\Vues\\Connexion.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T11:37:18.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AccesDonnees.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeDocumentMoniker": "Dal\\AccesDonnees.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Dal\\AccesDonnees.cs",
+              "RelativeToolTip": "Dal\\AccesDonnees.cs",
+              "ViewState": "AQIAAG0BAAAAAAAAAAAYwIMBAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T11:22:10.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BddManager.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\BDDMANAGER\\BddManager.cs",
+              "RelativeDocumentMoniker": "BDDMANAGER\\BddManager.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\BDDMANAGER\\BddManager.cs",
+              "RelativeToolTip": "BDDMANAGER\\BddManager.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAEwGIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-31T16:11:03.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Absence.cs",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Absence.cs",
+              "RelativeDocumentMoniker": "Modele\\Absence.cs",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Modele\\Absence.cs",
+              "RelativeToolTip": "Modele\\Absence.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T12:32:34.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IconApp.ico - Icon [48x48, 8 bits, BMP]",
+              "DocumentMoniker": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Resources\\IconApp.ico",
+              "RelativeDocumentMoniker": "Resources\\IconApp.ico",
+              "ToolTip": "C:\\Users\\pault\\Desktop\\PRO CODE HERE\\VS\\repos\\MEDIATek86 - V1\\Resources\\IconApp.ico - Icon [48x48, 8 bits, BMP]",
+              "RelativeToolTip": "Resources\\IconApp.ico - Icon [48x48, 8 bits, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-06-04T10:15:49.874Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MEDIATek86</name>
+    </assembly>
+    <members>
+        <member name="T:gestionbdd.BddManager">
+            <summary>
+            Singleton : connexion à la base de données et exécution des requêtes
+            </summary>
+        </member>
+        <member name="F:gestionbdd.BddManager.instance">
+            <summary>
+            instance unique de la classe
+            </summary>
+        </member>
+        <member name="F:gestionbdd.BddManager.connection">
+            <summary>
+            objet de connexion à la BDD à partir d'une chaîne de connexion
+            </summary>
+        </member>
+        <member name="M:gestionbdd.BddManager.#ctor(System.String)">
+            <summary>
+            Constructeur pour créer la connexion à la BDD et l'ouvrir
+            </summary>
+            <param name="stringConnect">chaine de connexion</param>
+        </member>
+        <member name="M:gestionbdd.BddManager.GetInstance(System.String)">
+            <summary>
+            Création d'une seule instance de la classe
+            </summary>
+            <param name="stringConnect">chaine de connexion</param>
+            <returns>instance unique de la classe</returns>
+        </member>
+        <member name="M:gestionbdd.BddManager.ReqControle(System.String)">
+            <summary>
+            Exécution d'une requête de type LCT (begin transaction...)
+            </summary>
+            <param name="stringQuery">requête</param>
+        </member>
+        <member name="M:gestionbdd.BddManager.ReqUpdate(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Exécution d'une requête de type LMD (insert, update, delete)
+            </summary>
+            <param name="stringQuery">requête</param>
+            <param name="parameters">dictionnire contenant les parametres</param>
+        </member>
+        <member name="M:gestionbdd.BddManager.ReqSelect(System.String,System.Collections.Generic.Dictionary{System.String,System.Object})">
+            <summary>
+            Execution d'une requête de type LID (select)
+            </summary>
+            <param name="stringQuery">requête</param>
+            <param name="parameters">dictoinnaire contenant les parametres</param>
+            <returns>liste de tableaux d'objets contenant les valeurs des colonnes</returns>
+        </member>
+        <member name="T:MEDIATEK86.Controleur">
+            <summary>
+            Classe/objet unique représentant le controleur , qui agit entre les actions de l'utilisateur 
+            et la gestion/accès des données
+            </summary>
+        </member>
+        <member name="F:MEDIATEK86.Controleur.empty">
+            <summary>
+            Variable peu utilisée pour savoir si le tableau est vide.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.#ctor">
+            <summary>
+            Classe/objet unique représentant le controleur , qui agit entre les actions de l'utilisateur 
+            et la gestion/accès des données
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.OpenLoginWindow">
+            <summary>
+            Ouvre la fenêtre de connexion
+            Appelé par défaut lors de l'éxecution de l'app
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.CreateMainWindow">
+            <summary>
+            Ouvre la fenêtre principale
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.NettoyerData">
+            <summary>
+            Efface le tableau pour le reremplir
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherData">
+            <summary>
+            Affiche les données dans le tableau
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.ControleAuthentification(System.String,System.String)">
+            <summary>
+            Controle la connexion et renvoie un booléen
+            </summary>
+            <param name="login"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.LigneSelectionnee(System.Object,System.EventArgs)">
+            <summary>
+            Appelé lorsqu'une ligne (une personne) est sélectionnée
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherButtonAbsences">
+            <summary>
+            Affiche (ou plutôt active) le bouton permettant d'afficher les absences
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.CacherButtonAbsences">
+            <summary>
+            Cache (ou plutôt désactive) le bouton permettant d'afficher les absences
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.EffacerEntry">
+            <summary>
+            Effacer le formulaire de modification, 
+            lorsque par exemple on ajoute ou modifie un contact (pour éviter des erreurs)
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherContenuDansEntry(System.Int32)">
+            <summary>
+            Affiche dans le formulaire de modification (à droite) 
+            Les données sélectionnées
+            </summary>
+            <param name="index"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AjouterContact(System.Object,System.EventArgs)">
+            <summary>
+            Appelle la modification des données quand l'utilisateur clique sur ajouter
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.EditerContact(System.Object,System.EventArgs)">
+            <summary>
+            Appelle la modification des données quand l'utilisateur clique sur modifier
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.SupprContact(System.Object,System.EventArgs)">
+            <summary>
+            Procédure qui permet de supprimer la ligne sélectionnée
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherFenetreAbsences(System.Object,System.EventArgs)">
+            <summary>
+            Affiche la fenêtre des absences pour un personnel donné (récupéré dynamiquement avec viewAppli)
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.FermerAbsences(System.Object,System.EventArgs)">
+            <summary>
+            Ferme la fenêtre des absences
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherDataAbsences(System.Int32)">
+            <summary>
+            Remplit la fenêtre des absences avec un id donné -> id du personnel sélectionné
+            </summary>
+            <param name="idPersonnel"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.LigneSelectionnee">
+            <summary>
+            Fonction qui évite d'appeler une table non "séléctionnée" - Pour une table d'absence.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AfficherAbsenceDataEntry(System.Object,System.EventArgs)">
+            <summary>
+            Affiche dans le formulaire à droite l'absence sélectionnée
+            </summary>
+            <param name="ABSID"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.SupprAbsence(System.Object,System.EventArgs)">
+            <summary>
+            Suppression d'une absence, appellé par un événement utilisateur
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.ValiderDate(System.DateTime,System.DateTime,System.DateTime,System.DateTime)">
+            <summary>
+            Donne la validité entre deux créneaux (si le nouveau, passé avec les deux derniers arguments est valide)
+            </summary>
+            <param name="datedebutabsence"></param>
+            <param name="datefinabsence"></param>
+            <param name="datedebutnouvelleabsence"></param>
+            <param name="finnouvelleabsence"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.CréneauValide(System.DateTime,System.DateTime)">
+            <summary>
+            Vérifie que le créneau n'a pas une date de fin antérieure au début
+            </summary>
+            <param name="debut"></param>
+            <param name="fin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.AjouterAbsence(System.Object,System.EventArgs)">
+            <summary>
+            Modification d'une absence, appellée par l'utilisateur.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:MEDIATEK86.Controleur.EditerUneAbsence(System.Object,System.EventArgs)">
+            <summary>
+            Édite une absence 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:MEDIATEK86.Dal.AccesDonnees">
+            <summary>
+            Classe unique qui sert d'intermédiaire entre le controle et la base de données (en faisant appel à bddmanager)
+            
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.TesterConnexion(System.String,System.String)">
+            <summary>
+            Teste la connexion pour les identifiants donnés
+            </summary>
+            <param name="login"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.GetLesPersonnels">
+            <summary>
+            Retourne une liste des personnels. 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.GetUnPersonnel(System.Int32)">
+            <summary>
+            Retourne un personnel pour une id donné.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.GetIDService(MEDIATEK86.Modele.Personnel)">
+            <summary>
+            Retourne l'identifiant du service dans la table service pour un personnel donné.
+            </summary>
+            <param name="personnel"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.AddUnPersonnel(MEDIATEK86.Modele.Personnel)">
+            <summary>
+            Ajoute un personnel dans la base de données.
+            </summary>
+            <param name="personnel"></param>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.EditerUnPersonnel(MEDIATEK86.Modele.Personnel)">
+            <summary>
+            Édite le personnel dans la base de donnée -> requête UDPATE
+            </summary>
+            <param name="personnel"></param>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.SupprUnPersonnel(System.Int32)">
+            <summary>
+            Supprime le personnel pour un id donné dans la base de donnée -> requête DELETE
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.GetLesAbsences(System.Int32)">
+            <summary>
+            Renvoie la liste des absences pour une id donnée.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.GetUneAbsence(System.Int32)">
+            <summary>
+            Renvoie une absence pour un id donné.
+            </summary>
+            <param name="idabsence"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.SupprAbsencePersonnel(System.Int32)">
+            <summary>
+            Supprimer une absence dont l'ID est donné
+            </summary>
+            <param name="idabsence"></param>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.AddUneAbsence(MEDIATEK86.Modele.Absence)">
+            <summary>
+            Modifie une absence existante
+            Vérifie si le créneau est valide et ne chevauche aucun créneau.
+            </summary>
+            <param name="absence"></param>
+        </member>
+        <member name="M:MEDIATEK86.Dal.AccesDonnees.EditUneAbsence(MEDIATEK86.Modele.Absence)">
+            <summary>
+            Modifie une absence existante
+            Vérifie si le créneau est valide et ne chevauche aucun créneau.
+            </summary>
+            <param name="absence"></param>
+        </member>
+        <member name="T:MEDIATEK86.Vues.Connexion">
+            <summary>
+            Classe view de la fenêtre de connexion
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.Connexion.#ctor(MEDIATEK86.Controleur)">
+            <summary>
+            Classe de la fenêtre de connexion
+            </summary>
+            <param name="controle">représente le controle unique qui créé la fenêtre principale</param>
+        </member>
+        <member name="M:MEDIATEK86.Vues.Connexion.ClavierConnexion(System.Object,System.EventArgs)">
+            <summary>
+            Fonction appellée si l'utilisateur presse une touche 
+            Si il s'agit d'entrée, on considère que l'utilisateur valide le formulaire de connexion
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:MEDIATEK86.Vues.Connexion.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.Connexion.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:MEDIATEK86.Vues.Connexion.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="T:MEDIATEK86.Vues.App">
+            <summary>
+            Classe de la fenêtre principale
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.App.#ctor(MEDIATEK86.Controleur)">
+            <summary>
+            Classe de la fenêtre principale
+            </summary>
+            <param name="controle">représente le controle unique qui créé la fenêtre principale</param>
+        </member>
+        <member name="F:MEDIATEK86.Vues.App.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.App.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MEDIATEK86.Vues.App.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MEDIATEK86.Vues.ListeAbsences">
+            <summary>
+            Classe représentant la fenêtre des absences.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.ListeAbsences.#ctor(MEDIATEK86.Controleur)">
+            <summary>
+            Classe/Objet représentant la fenêtre des absences.
+            </summary>
+            <param name="controle"></param>
+        </member>
+        <member name="F:MEDIATEK86.Vues.ListeAbsences.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Vues.ListeAbsences.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MEDIATEK86.Vues.ListeAbsences.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="T:MEDIATEK86.Modele.Absence">
+            <summary>
+            Classe modélisant une absence
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Modele.Absence.#ctor(System.Int32,System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)">
+            <summary>
+            Classe représenant une absence dans le modèle
+            </summary>
+        </member>
+        <member name="T:MEDIATEK86.Modele.Personnel">
+            <summary>
+            Classe modélisant un personnel
+            </summary>
+        </member>
+        <member name="M:MEDIATEK86.Modele.Personnel.#ctor(System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Classe représenant un personnel dans le modèle
+            </summary>
+        </member>
+        <member name="T:MEDIATEK86.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:MEDIATEK86.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:MEDIATEK86.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="P:MEDIATEK86.Properties.Resources.IconApp">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Icon semblable à (Icône).
+            </summary>
+        </member>
+    </members>
+</doc>
