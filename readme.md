@@ -4,7 +4,7 @@ MediaTek86 est une **application** de **gestion du personnel** développée pour
 
 
 
-## Page du portfolio avec le compte rendu et une vidéo de démo : <https://manerr.github.io/mediatek86/> 
+## Page du portfolio avec le compte rendu, la documentation et une vidéo de démo : <https://manerr.github.io/mediatek86/> 
 
 
 ### !!! Windows defender détecte cette application comme ... un vi\*us tr\*jan ... utilisez un vm pour la tester, ou recompilez là vous même (conseillé, de toute façon tout est open-source)
