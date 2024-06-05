@@ -3,7 +3,11 @@
 MediaTek86 est une **application** de **gestion du personnel** développée pour gérer les absences/congés du personnel, ainsi que leurs informations.
 
 
-# !!! Windows defender détecte cette application comme ... un trojan ... utilisez un vm pour la tester. 
+
+## Page du portfolio avec le compte rendu et une vidéo de démo : <https://manerr.github.io/mediatek86/> 
+
+
+## !!! Windows defender détecte cette application comme ... un trojan ... utilisez un vm pour la tester. 
 
 # Installation
 
